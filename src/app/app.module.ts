@@ -26,6 +26,9 @@ import { ProductsDetailsComponent } from './components/pages/products-details/pr
 import { ErrorComponent } from './components/pages/error/error.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
 import { PartnersComponent } from './components/pages/partners/partners.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { ServiceOneComponent } from './components/pages/services/service-one/service-one.component';
+import { ServiceTwoComponent } from './components/pages/services/service-two/service-two.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,10 @@ import { PartnersComponent } from './components/pages/partners/partners.componen
     ProductsDetailsComponent,
     ErrorComponent,
     ComingSoonComponent,
-    PartnersComponent
+    PartnersComponent,
+    ServicesComponent,
+    ServiceOneComponent,
+    ServiceTwoComponent
   ],
   imports: [
     BrowserModule,

@@ -2790,6 +2790,7 @@ Symptoms Area CSS
   color: #ffffff;
 }
 
+
 .symptoms-content ul li span:hover::before {
   width: 100%;
 }

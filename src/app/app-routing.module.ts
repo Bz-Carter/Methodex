@@ -18,9 +18,15 @@ import { BlogDetailsComponent } from './components/pages/blog-details/blog-detai
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ErrorComponent } from './components/pages/error/error.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { ServiceOneComponent } from './components/pages/services/service-one/service-one.component';
+import { ServiceTwoComponent } from './components/pages/services/service-two/service-two.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
+    {path: 'services', component: ServicesComponent},
+    {path: 'service-part-1', component: ServiceOneComponent},
+    {path: 'service-part-2', component: ServiceTwoComponent},
     {path: 'about', component: AboutOneComponent},
     {path: 'prevention', component: PreventionComponent},
     {path: 'doctors', component: DoctorsComponent},
