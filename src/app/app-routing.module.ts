@@ -25,8 +25,8 @@ import { ServiceTwoComponent } from './components/pages/services/service-two/ser
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'services', component: ServicesComponent},
-    {path: 'service-part-1', component: ServiceOneComponent},
-    {path: 'service-part-2', component: ServiceTwoComponent},
+    {path: 'services/service-part-1', component: ServiceOneComponent},
+    {path: 'services/service-part-2', component: ServiceTwoComponent},
     {path: 'about', component: AboutOneComponent},
     {path: 'prevention', component: PreventionComponent},
     {path: 'doctors', component: DoctorsComponent},
