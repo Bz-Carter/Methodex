@@ -27,7 +27,9 @@ const routes: Routes = [
     {path: 'services', component: ServicesComponent},
     {path: 'services/service-part-1', component: ServiceOneComponent},
     {path: 'services/service-part-2', component: ServiceTwoComponent},
+    {path: 'actualités', component: BlogOneComponent},
     {path: 'about', component: AboutOneComponent},
+    {path: 'contact', component: ContactComponent},
     {path: 'prevention', component: PreventionComponent},
     {path: 'doctors', component: DoctorsComponent},
     {path: 'appointment', component: AppointmentComponent},
@@ -38,12 +40,14 @@ const routes: Routes = [
     {path: 'checkout', component: CheckoutComponent},
     {path: 'products-details', component: ProductsDetailsComponent},
     {path: 'faq', component: FaqComponent},
-    {path: 'blog-one', component: BlogOneComponent},
     {path: 'blog-two', component: BlogTwoComponent},
-    {path: 'blog-details', component: BlogDetailsComponent},
     {path: 'error', component: ErrorComponent},
     {path: 'coming-soon', component: ComingSoonComponent},
-    {path: 'contact', component: ContactComponent},
+    {path: ':key', component: BlogDetailsComponent},
+    {path: '**', component: ErrorComponent},
+
+
+
 ];
 
 @NgModule({
