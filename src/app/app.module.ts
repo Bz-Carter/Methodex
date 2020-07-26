@@ -60,7 +60,7 @@ import { ServiceTwoComponent } from './components/pages/services/service-two/ser
     ServiceTwoComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule
   ],
