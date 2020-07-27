@@ -22,7 +22,7 @@
                             <img [src]=article.imagePath alt="image">
                         </a>
                         <div class="date">
-                            <span>{{ article.date.toDateString() }}</span>
+                            <span>{{ article.date | date }}</span>
                         </div>
                     </div>
 

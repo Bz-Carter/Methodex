@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Articles } from './articles';
-import { ARTICLES } from './mock-articles';
 import { ArticleService } from './article.service';
 import { SharedService } from './shared.service';
 import { Title } from '@angular/platform-browser';

@@ -27,7 +27,7 @@ const routes: Routes = [
     {path: 'services', component: ServicesComponent},
     {path: 'services/service-part-1', component: ServiceOneComponent},
     {path: 'services/service-part-2', component: ServiceTwoComponent},
-    {path: 'actualités', component: BlogOneComponent},
+    {path: 'articles', component: BlogOneComponent},
     {path: 'about', component: AboutOneComponent},
     {path: 'contact', component: ContactComponent},
     {path: 'prevention', component: PreventionComponent},
