@@ -7,6 +7,7 @@ export class Articles {
   content = '';
   description = '';
   imagePath = '';
+  viewCount: number;
 
   constructor() { }
 }
